@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Notifyme</string>
+    <string name="facebook_app_id">1785110948378208</string>
+    <string name="action_logout"> Log Out</string>
+
+    <string name="loading">Loading</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="hint_email">Email</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="strAll">All</string>
+    <string name="SUBMIT">SUBMIT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
+

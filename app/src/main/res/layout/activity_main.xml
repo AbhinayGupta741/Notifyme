@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity"
+    android:background="@color/blue">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:id="@+id/relativeLayout">
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="100dp">
+            <TextView
+                android:id="@+id/text_view_name"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:gravity="center_horizontal"
+                android:textColor="@color/secondary_text"
+                android:textSize="20sp"
+                android:layout_gravity="right" />
+            <TextView
+                android:id="@+id/text_view_welcome"
+                android:layout_width="151dp"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:gravity="center"
+                android:textColor="@color/secondary_text"
+                android:textSize="24sp"
+                android:layout_gravity="right"
+                android:layout_marginLeft="15dp" />
+
+
+        </LinearLayout>
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/profile_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp" />
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:text="Click To Select Categories"
+        android:id="@+id/id_select_categories"
+        android:onClick="categoroies"
+        android:textColor="@color/colorText"
+        android:background="#3333cc"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="       Welcome to Notifyme"
+        android:id="@+id/textView"
+        android:autoText="false"
+        android:textSize="30dp"
+        android:textColor="@color/colorText"
+        android:textStyle="bold"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="37dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="You will be notified for every update like hollywood , bollywood movies,web series, TV series ,Youtube Vieos."
+        android:id="@+id/textView2"
+        android:textSize="20dp"
+        android:textColor="@color/colorText"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Please Select Categories for updates"
+        android:id="@+id/textView3"
+        android:textSize="20dp"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp" />
+
+
+
+
+</RelativeLayout>
